@@ -1,0 +1,185 @@
+
+
+/* Preparation */
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0px 80px 0px;
+}
+
+
+/* Header */
+.header {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 25px;
+}
+
+.header_inner_logo {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Navigation */
+
+.header_inner nav {
+    margin-top: -10px;
+    margin-left: 120px;
+}
+
+.header_inner nav a {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+
+    margin-left: 60px;
+}
+
+.header_inner nav a:hover {
+    opacity: 1;
+}
+
+/* Socials */
+
+.header_inner_socials {
+    display: flex;
+
+    margin-top: -3px;
+    margin-left: auto;
+}
+
+.header_inner_socials_item {
+    opacity: 0.75;
+}
+
+.header_inner_socials_item:hover {
+    opacity: 1;
+}
+
+.header_inner_socials a {
+    margin-left: 40px;
+}
+
+
+/* Background */
+.background_header {
+    width: 100%;
+    height: 715px;
+
+    background: url('../images/backgrounds/header_background.jpg') center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Intro */
+.intro {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    margin-top: 200px;
+}
+
+.intro_title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #e6ecf5;
+    
+    width: 100%;
+    max-width: 400px;
+}
+
+.intro_subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.8;
+    color: #fff;
+    margin-top: 30px;
+    
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* Buttons */
+.buttons {
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    width: 140px;
+
+    padding: 10px 30px;
+
+    border-radius: 7px;
+    background-color: #4466c9;
+
+    font-size: 17px;
+    font-weight: 550;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+ .btn2{
+    margin-left: 7px;
+}
+
+.btn:hover {
+    /* Colors for experiments :) #5b81ec #4466c9 #fc6a42 #648cff */
+    background-color: #fc6a42;
+    color: #fff;
+}
+
+
+/* Scroll Down */
+.scrolldown {
+    position: absolute;
+    margin-top: 90px;
+    left: calc(50% - 35px);
+}
